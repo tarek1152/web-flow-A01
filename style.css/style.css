@@ -81,6 +81,7 @@ main{
   text-align: center;
   font-size: 38px;
   font-weight: bold;
+  margin-bottom: 0%;
 }
 .title-head{
   font-size: 80px;
@@ -97,4 +98,42 @@ main{
   border-radius: 10px;
   padding: 50px 80px;
   margin: 160px 140px;
+}
+.user{
+  text-align: center;
+  margin-bottom: 50px;
+  font-size: 42px;
+  font-weight: bold;
+}
+.comment-title{
+  font-size: 25px;
+  font-weight: bold;
+}
+.comment-description{
+  font-size: 18px;
+  font-weight: 200;
+}
+.commenter{
+  display: flex;
+  gap: 30px;
+}
+
+.comment{
+  width: 300px;
+  border: 2px solid #F2EDED;
+  border-radius: 10px;
+  padding: 10px;
+}
+.Reviewer{
+  border-radius: 50%;
+  height: 100%;
+}
+.nr{
+  margin: 0;
+  padding: 0;
+}
+.review-comments{
+  display: flex;
+  gap: 20px;
+  margin: 0 160px 200px 140px;
 }

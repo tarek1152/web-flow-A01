@@ -5,7 +5,9 @@
   font-weight: 100;
   font-style: normal;
 }
-
+.body-color-bg{
+  background-color: #e9e9ee;
+}
 .nav-logo{
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
@@ -136,4 +138,31 @@ main{
   display: flex;
   gap: 20px;
   margin: 0 160px 200px 140px;
+}
+/* second banner style */
+.second-banner{
+  background-color: white ;
+  border-radius: 10px;
+  margin: 0px 160px 200px 140px;
+  padding: 1px 100px;
+  
+}
+.second-banner-title{
+  font-size: 50px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 70px;
+}
+.second-banner-description{
+  font-size: 18px;
+  font-weight: 200;
+  text-align: center;
+}
+.box{
+  margin-left: 310px; 
+  margin-bottom: 20px;
+}
+.second-banner-image{
+  margin-bottom: 70px;
+
 }
